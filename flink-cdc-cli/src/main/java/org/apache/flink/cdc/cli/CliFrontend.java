@@ -45,10 +45,10 @@ import java.util.Optional;
 import java.util.Properties;
 import java.util.stream.Collectors;
 
+import static org.apache.flink.cdc.cli.CliFrontendOptions.FLINK_CONFIG;
 import static org.apache.flink.cdc.cli.CliFrontendOptions.SAVEPOINT_ALLOW_NON_RESTORED_OPTION;
 import static org.apache.flink.cdc.cli.CliFrontendOptions.SAVEPOINT_CLAIM_MODE;
 import static org.apache.flink.cdc.cli.CliFrontendOptions.SAVEPOINT_PATH_OPTION;
-import static org.apache.flink.cdc.cli.CliFrontendOptions.FLINK_CONFIG;
 
 /** The frontend entrypoint for the command-line interface of Flink CDC. */
 public class CliFrontend {
